@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Search App</title>
+  <link rel="stylesheet" href="day-25-country-app.css">
+  <script src="day-25-country-app.js" defer></script>
+</head>
+<body>
+
+  <div class="search-container">
+    <h1>Country Finder</h1>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Enter country name (e.g., India, Japan)...">
+      <button id="searchBtn">Search</button>
+    </div>
+  </div>
+
+  <div class="status-container">
+    <div id="loading" class="status-message"></div>
+    <div id="error" class="status-message error"></div>
+    <div id="noResults" class="status-message info"></div>
+  </div>
+
+  <div id="countryContainer" class="main-container">
+  </div>
+
+</body>
+</html>
